@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dimasokolov/CLionProjects/untitled2/Multiplicator.cpp
+Multiplicator.h
+/Users/dimasokolov/CLionProjects/untitled2/Multiplicator.h
+random
+-
+ctime
+-
+
+/Users/dimasokolov/CLionProjects/untitled2/Multiplicator.h
+iostream
+-
+random
+-
+string
+-
+ctime
+-
+Number.h
+/Users/dimasokolov/CLionProjects/untitled2/Number.h
+
+/Users/dimasokolov/CLionProjects/untitled2/Number.h
+iostream
+-
+
+/Users/dimasokolov/CLionProjects/untitled2/main.cpp
+iostream
+-
+ctime
+-
+fstream
+-
+Multiplicator.h
+/Users/dimasokolov/CLionProjects/untitled2/Multiplicator.h
+
