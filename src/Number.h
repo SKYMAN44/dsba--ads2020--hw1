@@ -25,12 +25,12 @@ public:
         number = a;
     }
 
-    char operator[](size_t i)
+    int operator[](size_t i)
     {
         return number[i] - '0';
     }
 
-    const char operator[] (size_t i) const
+    const int operator[] (size_t i) const
     {
         return number[i] - '0';
     }
