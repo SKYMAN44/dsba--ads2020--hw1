@@ -35,11 +35,9 @@ Number GradeSchool::multiply(Number &num_1, Number &num_2)
     for (int i = num_2.size() - 1; i >= 0; i--)
     {
         std::string result = "";
-        int sc = num_2[i];
         for(int j = num_1.size() - 1; j >= 0; j--)
         {
-            int fst = num_1[j];
-            std::string temp2 = std::to_string(sc * fst + temp);
+            std::string temp2 = std::to_string(num_2[i] * num_1[j] + temp);
             if( temp2.length() == 2)
             {
                 temp = temp2[0] - '0';
