@@ -1,5 +1,5 @@
-# research-ads2020
-# comparison of work-time of several multiplication algortihms:
+# Research-ads2020
+# Comparison of work-time of several multiplication algortihms:
 - Karatsuba
 - Gradeschool 
 - Divide and Conquer 
